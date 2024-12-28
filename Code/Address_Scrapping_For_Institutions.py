@@ -93,6 +93,6 @@ for index, row in tqdm(institutions_df.iterrows(), total=len(institutions_df), d
     time.sleep(2)  # Increase delay to 2 seconds to be more cautious
 
 # Save the updated dataframe back to an Excel file
-output_file = 'nstitution_Addresses.xlsx'
+output_file = 'Institution_Addresses.xlsx'
 institutions_df.to_excel(output_file, index=False)
 print(f"Data for all institutions saved to {output_file}")
