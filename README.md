@@ -19,7 +19,7 @@ TODO:
 	
 	- Daria TBD
 
-	- Markus TBD
+	- Markus (Time Series Analysis & Visualization)
 
 	- Antonia TBD
 
