@@ -11,15 +11,15 @@ TODO:
 
 - Decide how we want to fit the annotation task into our project. That is, conjure some link between "interest score" and a broader research question. For example, (We wanted to examine if international articles sparked more interest as they combine international perspectives).
 
-- Determine who is in charge of the following sections: (Methods, Results, Discussion, Conclusion)
+- Division of Labor
 
 	- Tonio (Introduction, Abstract, Related Work)
 
 	- Mikas (Data, Scraping aspect of Methods)
 	
-	- Daria TBD
+	- Daria (Annotation Task and Conclusion) (Part of Methods, Results, Discussion)
 
-	- Markus (Time Series Analysis & Visualization)
+	- Markus (Time Series Analysis & Visualization) (Part of Methods, Results)
 
-	- Antonia TBD
+	- Antonia Event Analysis (2007-08, 2017-18, 2020?) (Big part of discussion)
 
