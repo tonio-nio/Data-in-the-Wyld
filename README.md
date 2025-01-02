@@ -1,6 +1,10 @@
 # README
 Repo to share and store code for data collection, cleaning, and visualisation for the Scrapy Party group/
 
+- Visualizations
+  - To recreate the Visualizations of the report, run the Jupyter-Notebook "/Code/Time Series Visualizations/Final Visualizations.ipynb". Detailed instructions can be found inside the notebook.
+
+
 
 TODO: 
 - Finalize the results we would like to present. (2006 event is great start, we need one more for late 2010s, or several potential explanations). Annotation scores.
