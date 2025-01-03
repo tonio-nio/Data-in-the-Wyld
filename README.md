@@ -1,17 +1,17 @@
 # README
 Repo to share and store code, data, and project proposal for Scrapy Party's Data in the Wild Project. This repo collects and analyses data concerning IT University of Copenhagen's research publication with a particular focus on trends in international Collaboration in the past two decades.
 
-Collaborators: Tonio Ermakoff, Markus Leonard Brenken, Mikas Jankeliunas, Daria Damian, and Antonia-Bianca Zserai.
+Collaborators: Tonio Ermakoff, Markus Leonard Brenken, Mikas Jankeliunas, Daria Damian, and Antonia-Bianca Zserai. //
 
 
 The repo is organized as follows:
 
--/Data
--/Code
-	-/Annotation Task 
-	-/Time Series Visualization
-	-/Scraping
--/Proposal
+-/Data/
+-/Code/
+	-/Annotation Task/ 
+	-/Time Series Visualization/
+	-/Scraping/
+-/Proposal/
 
 
 Below is a brief description of each folder as well as basic instructions to reproduce our results.
