@@ -1,29 +1,36 @@
 # README
-Repo to share and store code for data collection, cleaning, and visualisation for the Scrapy Party group/
+Repo to share and store code, data, and project proposal for Scrapy Party's Data in the Wild Project. This repo collects and analyses data concerning IT University of Copenhagen's research publication with a particular focus on trends in international Collaboration in the past two decades.
 
-- Visualizations
-  - To recreate the Visualizations of the report, run the Jupyter-Notebook "/Code/Time Series Visualizations/Final Visualizations.ipynb". Detailed instructions can be found inside the notebook.
-
+Collaborators: Tonio Ermakoff, Markus Leonard Brenken, Mikas Jankeliunas, Daria Damian, and Antonia-Bianca Zserai.
 
 
-TODO: 
-- Finalize the results we would like to present. (2006 event is great start, we need one more for late 2010s, or several potential explanations). Annotation scores.
+The repo is organized as follows:
 
-- Decide which figures and plots we would like to include in the report. Improve and polish the graphs.
+-/Data
+-/Code
+	-/Annotation Task 
+	-/Time Series Visualization
+	-/Scraping
+-/Proposal
 
-- Decide which methods we want to address (besides scraping). Time-series analysis? Cross examination of data with national/political events?
 
-- Decide how we want to fit the annotation task into our project. That is, conjure some link between "interest score" and a broader research question. For example, (We wanted to examine if international articles sparked more interest as they combine international perspectives).
+Below is a brief description of each folder as well as basic instructions to reproduce our results.
 
-- Division of Labor
+- /Proposal
+  - Contains a draft for our original project proposal
+- /Data
+  - The data collected from the scraping scripts is found here. Publications.csv describes all the publications scraped. Addresses.csv contains the addresses of each institution that collaborated with ITU in the past twenty years.
+- /Code
+  - Contains the python scripts and ipynb files used to scrape, clean the data, carry out our project analysis, and produce visualizations.
+  - /Scaping
+     - Changes in ITU departments in the year 2025 might make these scripts obsolete. To collect data on ITU's publications, run the three python scripts starting with 'Scraping_'. Afterwards, running Address_Scraping_for_Institutions.py will retrive the addresses of each instituion that collaborated with ITU.
+  - /Annotation Task
+     - Contains the code use to obtain a sample dataset for our annotators. Annotated scores of 120 reside in annotation.csv. Running agreement.ipynb executes the analysis carried out on the annotation score. 
+  - /Time Series Visualizations
+     - To recreate the Visualizations of the report, run the Jupyter-Notebook "Time Series Visualizations/Final Visualizations.ipynb". Detailed instructions can be found inside the notebook.
+  
 
-	- Tonio (Introduction, Abstract, Related Work)
 
-	- Mikas (Data, Scraping aspect of Methods)
-	
-	- Daria (Annotation Task and Conclusion) (Part of Methods, Results, Discussion)
 
-	- Markus (Time Series Analysis & Visualization) (Part of Methods, Results)
 
-	- Antonia Event Analysis (2007-08, 2017-18, 2020?) (Big part of discussion)
 
